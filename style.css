@@ -1,0 +1,149 @@
+/******************************************************************************/
+/* Built-in Elements                                                          */
+/******************************************************************************/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	font-size: 1em;
+}
+
+html, body {
+	min-width: 200px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+fieldset {
+	position: relative;
+	border: none;
+}
+
+legend {
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+legend::after {
+	content: ":";
+}
+
+input[type="text"] {
+	padding: 4px;
+	border: 1px solid #737373;
+}
+
+button {
+	padding: 8px 16px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	padding: 4px;
+}
+
+/******************************************************************************/
+/* Page Sections                                                              */
+/******************************************************************************/
+
+#header {
+	padding: 32px;
+	text-align: center;
+}
+
+#error {
+	margin-bottom: 16px;
+	padding: 4px;
+	text-align: center;
+	color: #eb400c;
+}
+
+#content {
+	padding: 16px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-color: #dddddd;
+}
+
+#footer {
+	padding: 16px;
+	text-align: center;
+}
+
+/******************************************************************************/
+/* Content Sections                                                           */
+/******************************************************************************/
+
+.result, .regex, .modifiers {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.documentation li {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+.result {
+	padding: 16px;
+	border: 1px solid #737373;
+	background-color: #ffffff;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.result mark {
+	background-color: #f9d3d3;
+}
+
+.regex label {
+	display: block;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+
+.regex label::after {
+	content: ":";
+}
+
+.regex textarea + label, .regex input + label {
+	margin-top: 8px;
+}
+
+.modifiers .modifier {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.modifiers .modifier input[type="checkbox"] {
+	float: left;
+}
+
+.modifiers .modifier label {
+	display: block;
+	margin-left: 24px;
+}
+
+.actions button {
+	width: 100%;
+}
+
+.actions button + button {
+	margin-top: 12px;
+}
+
+@media (min-width: 481px) {
+	.actions button {
+		width: auto;
+		margin-right: 12px;
+	}
+
+	.actions button + button {
+		margin-top: 0;
+	}
+}

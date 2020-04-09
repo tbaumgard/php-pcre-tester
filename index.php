@@ -3,7 +3,7 @@
 /**
  * Tool to test Perl-compatible regular expressions (PCRE) in PHP.
  *
- * Copyright 2008, 2011, 2015-2017 Tim Baumgard
+ * Copyright 2008, 2011, 2015-2020 Tim Baumgard
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software

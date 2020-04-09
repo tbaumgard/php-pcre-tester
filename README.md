@@ -10,4 +10,4 @@ It requires a web server, PHP 7, and a browser.
 
 ## License
 
-&copy; 2008, 2011, 2015-2017 Tim Baumgard. This tool is licensed under [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0-standalone.html).
+&copy; 2008, 2011, 2015-2020 Tim Baumgard. This tool is licensed under [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0-standalone.html).

@@ -152,8 +152,8 @@ if ($action == "submit") {
 			<header>
 				<nav class="documentation">
 					<ul>
-						<li><a href="https://secure.php.net/manual/en/book.pcre.php">PHP PCRE Documentation</a></li>
-						<li><a href="http://pcre.org/current/doc/html/">PCRE2 Documentation</a></li>
+						<li><a href="https://www.php.net/manual/en/book.pcre.php">PHP PCRE Documentation</a></li>
+						<li><a href="https://pcre.org/current/doc/html/">PCRE2 Documentation</a></li>
 					</ul>
 				</nav>
 			</header>

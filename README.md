@@ -6,7 +6,7 @@ It requires a web server, PHP 7, and a browser.
 
 ## Screenshot
 
-[![](screenshot-small.png "Usage Example")](screenshot.png?raw=true)
+![](screenshot.png "Usage Example")
 
 ## License
 
